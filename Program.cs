@@ -8,8 +8,9 @@ internal class Program
 1. Validate the number is between 0 and 10
 2. Find the maximum integer between two numbers
 3. Calculate if dimensions make a portrait or landscape ratio
-4. Determine if the speed is legal");
-        Console.Write("\nEnter your choice: ");
+4. Determine if the speed is legal
+");
+        Console.Write("Enter your choice: ");
         string choice = Console.ReadLine();
         if (choice == "1")
         {

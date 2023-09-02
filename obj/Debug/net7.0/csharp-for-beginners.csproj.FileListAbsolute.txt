@@ -1,0 +1,15 @@
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\obj\Debug\net7.0\csharp-for-beginners.csproj.AssemblyReference.cache
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\obj\Debug\net7.0\csharp-for-beginners.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\obj\Debug\net7.0\csharp-for-beginners.AssemblyInfoInputs.cache
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\obj\Debug\net7.0\csharp-for-beginners.AssemblyInfo.cs
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\obj\Debug\net7.0\csharp-for-beginners.csproj.CoreCompileInputs.cache
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\bin\Debug\net7.0\csharp-for-beginners.exe
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\bin\Debug\net7.0\csharp-for-beginners.deps.json
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\bin\Debug\net7.0\csharp-for-beginners.runtimeconfig.json
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\bin\Debug\net7.0\csharp-for-beginners.dll
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\bin\Debug\net7.0\csharp-for-beginners.pdb
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\obj\Debug\net7.0\csharp-for-beginners.dll
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\obj\Debug\net7.0\refint\csharp-for-beginners.dll
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\obj\Debug\net7.0\csharp-for-beginners.pdb
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\obj\Debug\net7.0\csharp-for-beginners.genruntimeconfig.cache
+C:\Users\wbalconi\workspace\git\csharp-for-beginners\obj\Debug\net7.0\ref\csharp-for-beginners.dll
