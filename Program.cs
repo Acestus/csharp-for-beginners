@@ -135,7 +135,7 @@ internal class Program
             Console.Write("Enter a series of numbers separated by commas: ");
             string input = Console.ReadLine();
             string[] numbers = input.Split(',');
-            int max = Convert.ToInt32(numbers[0]);
+            int max = 0;
             foreach (string number in numbers)
             {
                 if (Convert.ToInt32(number) > max)
