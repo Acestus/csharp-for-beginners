@@ -9,6 +9,11 @@ internal class Program
 2. Find the maximum integer between two numbers
 3. Calculate if dimensions make a portrait or landscape ratio
 4. Determine if the speed is legal
+5. Calculate how many numbers are divisible by 3 between 1 and 100
+6. Calculate the sum of input numbers
+7. Calculate the factorial of a number
+8. Number guessing game
+9. Find the maximum of a series of numbers
 ");
         Console.Write("Enter your choice: ");
         string choice = Console.ReadLine();
@@ -63,6 +68,80 @@ internal class Program
                 else
                     Console.WriteLine("Demerit Points: " + demeritPoints);
             }
+        }
+        else if (choice == "5")
+        {
+            Console.WriteLine("You chose 5");
+            int count = 0;
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % 3 == 0)
+                    count++;
+            }
+            Console.WriteLine("There are " + count + " numbers divisible by 3 between 1 and 100");
+        }
+        else if (choice == "6")
+        {
+            Console.WriteLine("You chose 6");
+            int sum = 0;
+            while (true)
+            {
+                Console.Write("Enter a number or OK to exit: ");
+                string input = Console.ReadLine();
+                if (input == "OK")
+                    break;
+                sum += Convert.ToInt32(input);
+            }
+            Console.WriteLine("The sum is " + sum);
+        }
+        else if (choice == "7")
+        {
+            Console.WriteLine("You chose 7");
+            Console.Write("Enter a number: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+            int factorial = 1;
+            for (int i = 1; i <= number; i++)
+            {
+                factorial *= i;
+            }
+            Console.WriteLine("The factorial of " + number + " is " + factorial);
+        }
+        else if (choice == "8")
+        {
+            Console.WriteLine("You chose 8");
+            Random random = new Random();
+            int number = random.Next(1, 10);
+            int guessCount = 0;
+            while (true)
+            {
+                Console.Write("Guess the number: ");
+                int guess = Convert.ToInt32(Console.ReadLine());
+                guessCount++;
+                if (guess == number)
+                {
+                    Console.WriteLine("You won!");
+                    break;
+                }
+                else if (guessCount == 4)
+                {
+                    Console.WriteLine("You lost!");
+                    break;
+                }
+            }
+        }
+        else if (choice == "9")
+        {
+            Console.WriteLine("You chose 9");
+            Console.Write("Enter a series of numbers separated by commas: ");
+            string input = Console.ReadLine();
+            string[] numbers = input.Split(',');
+            int max = Convert.ToInt32(numbers[0]);
+            foreach (string number in numbers)
+            {
+                if (Convert.ToInt32(number) > max)
+                    max = Convert.ToInt32(number);
+            }
+            Console.WriteLine("The maximum number is " + max);
         }
     }
 }
